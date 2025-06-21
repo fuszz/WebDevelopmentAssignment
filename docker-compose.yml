@@ -1,0 +1,21 @@
+services:
+  db:
+    image: ghcr.io/fuszz/mordappka-db:latest
+    ports:
+      - "5432:5432"
+    environment:
+      POSTGRES_PASSWORD: my_secret
+
+  backend:
+    image: ghcr.io/fuszz/mordappka-backend:latest
+    ports:
+      - "5000:5000"
+    depends_on:
+      - db
+
+  frontend:
+    image: ghcr.io/fuszz/mordappka-frontend:latest
+    extra_hosts:
+      - "host.docker.internal:host-gateway"
+    ports:
+      - "8080:80"

@@ -27,7 +27,7 @@ Pomysł na nazwę pojawił się, kiedy nasi starsi koledzy zaczęli tworzyć alt
 - Lombok – biblioteka, która automatycznie generuje kod jak gettery, settery czy konstruktory, ograniczając boilerplate.
 - Swagger – zestaw narzędzi do automatycznego generowania i testowania dokumentacji REST API.
 
-##Frontend
+## Frontend
 - TypeScript – nadzbiór JavaScriptu wprowadzający typowanie statyczne i ułatwiający rozwój większych aplikacji.
 - React – biblioteka do budowania interfejsów użytkownika, oparta na komponentach i wirtualnym DOM.
 

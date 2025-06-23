@@ -29,7 +29,7 @@ Pomysł na nazwę pojawił się, kiedy nasi starsi koledzy zaczęli tworzyć alt
 - Hibernate – biblioteka ORM mapująca obiekty Java na rekordy w relacyjnych bazach danych.
 - LiquiBase – narzędzie do śledzenia, wersjonowania i automatycznego wdrażania zmian w bazie danych.
 - Lombok – biblioteka, która automatycznie generuje kod jak gettery, settery czy konstruktory, ograniczając boilerplate.
-- Swagger – zestaw narzędzi do automatycznego generowania i testowania dokumentacji REST API. (localhost:5000/api/swagger-ui/index.html)
+- Swagger – zestaw narzędzi do automatycznego generowania i testowania dokumentacji REST API. Dokumentacja wygenerowana przez SwaggerUI jest dostępna - po uruchomieniu serwera backendu - pod adresem [`localhost:5000/api/swagger-ui/index.html`](localhost:5000/api/swagger-ui/index.html). 
 
 ## Frontend
 - TypeScript – nadzbiór JavaScriptu wprowadzający typowanie statyczne i ułatwiający rozwój większych aplikacji.

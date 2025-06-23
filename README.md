@@ -33,3 +33,15 @@ Pomysł na nazwę pojawił się, kiedy nasi starsi koledzy zaczęli tworzyć alt
 
 ## Baza danych
 - PostgreSQL - zaawansowany, otwartoźródłowy system zarządzania relacyjnymi bazami danych.
+### Struktura bazy danych:
+- tabela `faculties` - przechowuje informacje o wydziałach
+- tabela `majors` - przechowuje informacje o kierunkach studiów
+- tabela `rooms` - przechowuje informacje o salach wykładowych
+- tabela `teachers` - przechowuje informacje o nauczycielach akademickich
+- tabela `classes` - przechowuje informacje o terminach zajęć 
+- tabela `term_groups` - przechowuje informacje o unikatowych grupach zajęciowych. Taka grupa zajęciowa jest rozumiana jako iloczyn semestru i kierunku studiów
+- tabela `periods` - przechowuje informacje o semestrach (w sensie chronologicznym)
+- tabela `subjects` - przechowuje informacje o przedmiotach wykładowych
+### Schemat struktury bazy danych
+![image](https://github.com/user-attachments/assets/fde820c6-0564-4726-bf40-65dbe5f3877e)
+

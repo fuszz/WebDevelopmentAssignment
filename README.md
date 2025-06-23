@@ -3,7 +3,11 @@ Repo containing my team's final assignment on Web Development lecture.
 
 # [PL] Projekt zaliczeniowy z przedmiotu Web Development
 W ramach zaliczenia przedmiotu WebDevelopment, zgodnie z ustaleniami z prowadzącym, przygotowaliśmy do oceny projekt realizowany w wolnym czasie w ramach działalności w Studenckim Kole Naukowym Informatyki UMCS. 
-Repozytoria projektu są dostępne w organizacji [SKNI](https://github.com/skni-umcs). 
+Repozytoria projektu są dostępne w organizacji [SKNI](https://github.com/skni-umcs):
+- [Backend](https://github.com/skni-umcs/mordorappka-backend)
+- [Frontend](https://github.com/skni-umcs/mordappka-web)
+
+  
 Projekt został spakowany w kontenery, aby umożliwić Prowadzącemu ocenę pracy. 
 
 # Instrukcja uruchomienia
